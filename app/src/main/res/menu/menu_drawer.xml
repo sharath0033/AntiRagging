@@ -1,0 +1,46 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/set_title1"
+        android:title="@string/set_title1">
+        <menu>
+            <item
+                android:id="@+id/see_message"
+                android:icon="@mipmap/ic_add_message"
+                android:title="@string/see_message" />
+
+            <item
+                android:id="@+id/see_contact"
+                android:icon="@mipmap/ic_add_contact"
+                android:title="@string/see_contact" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/set_title2"
+        android:title="@string/set_title2">
+        <menu>
+            <item
+                android:id="@+id/settings_activity"
+                android:icon="@mipmap/ic_action_settings"
+                android:title="@string/activity_settings" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/set_title3"
+        android:title="@string/set_title3">
+        <menu>
+            <item
+                android:id="@+id/help_activity"
+                android:icon="@mipmap/ic_action_help"
+                android:title="@string/title_activity_help" />
+
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_action_info"
+                android:title="@string/about" />
+        </menu>
+    </item>
+</menu>
