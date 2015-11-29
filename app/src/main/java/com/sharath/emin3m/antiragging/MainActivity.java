@@ -146,6 +146,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             startActivity(intent);
             return true;
         }
+        if(menuItem.getItemId()==R.id.help_activity) {
+            mDrawerLayout.closeDrawer(GravityCompat.START);
+            intent = new Intent(this, HelpActivity.class);
+            startActivity(intent);
+            return true;
+        }
         if(menuItem.getItemId()==R.id.about){
             mDrawerLayout.closeDrawer(GravityCompat.START);
             intent=new Intent(this,AboutActivity.class);

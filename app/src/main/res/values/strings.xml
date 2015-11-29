@@ -8,13 +8,12 @@
     <string name="see_message">View Message</string>
     <string name="see_contact">View Contacts</string>
     <string name="okay">Okay</string>
-    <string name="help">Help</string>
-    <string name="about">About</string>
     <string name="set_title1">Actions</string>
     <string name="set_title2">Preferences</string>
     <string name="set_title3">Information</string>
-    <string name="title_activity_help">Help &amp; Feedback</string>
-    
+    <string name="activity_about">About</string>
+    <string name="activity_help">Help &amp; Feedback</string>
+
     <string-array name="titles">
         <item>FAQs</item>
         <item>FeedBack</item>
